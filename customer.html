@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#090c10" />
+  <meta name="description" content="Find products and discover local shops around you with ShopGenie." />
+  <title>For Customers — ShopGenie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="customer.css" />
+</head>
+<body class="customer-page">
+  <div class="page-grain" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="ShopGenie home"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>shop<span class="brand-light">genie</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#platform">Platform</a><a class="active-link" href="customer.html">For Customers</a><a href="owner.html">For Store Owners</a><a href="index.html#discovery">Discovery</a><a href="index.html#intelligence">AI Capabilities</a><a href="index.html#vision">About</a>
+    </nav>
+    <a class="nav-cta" href="#explore">Explore nearby <span>↗</span></a>
+  </header>
+  <main>
+    <section class="hero customer-hero scene" data-scene="customer-video" id="home">
+      <video class="hero-video scene-media" autoplay muted loop playsinline preload="auto" aria-label="Cinematic ShopGenie customer experience background">
+        <source src="shopgenie-customer.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <div class="eyebrow hero-enter"><span class="eyebrow-dot"></span> FOR THE CURIOUS &amp; CLOSE TO HOME</div>
+        <h1 class="hero-enter">Find more.<br><span>Right nearby.</span></h1>
+        <p class="hero-kicker hero-enter">Good finds start around the corner.</p>
+        <p class="hero-copy hero-enter">Search for what you need and discover the local stores that have it. ShopGenie brings nearby products and the people who sell them a little closer.</p>
+        <div class="hero-actions hero-enter"><a class="button button-primary" href="#explore">Explore local discovery <span>↘</span></a><a class="button button-quiet" href="index.html">Meet ShopGenie <span>↗</span></a></div>
+      </div>
+      <div class="hero-bottom wrap"><span>01 / BETTER DISCOVERY, CLOSER TO HOME</span><a href="#explore" class="scroll-cue"><span class="scroll-line"></span> Scroll to explore</a><span class="hero-location">FIND IT NEARBY&nbsp; · &nbsp;SHOP IT LOCAL</span></div>
+      <div class="hero-side-label">YOUR NEIGHBOURHOOD, OPEN</div>
+    </section>
+
+    <section class="customer-discover section-pad scene" id="explore" data-scene="customer-local-map">
+      <div class="customer-map-art scene-media" aria-hidden="true"><div class="customer-map-grid"></div><span class="customer-street street-one"></span><span class="customer-street street-two"></span><span class="customer-street street-three"></span><div class="customer-map-user"><i></i></div><div class="customer-map-pin pin-left">⌂</div><div class="customer-map-pin pin-right">⌂</div><div class="customer-map-card"><small>PRODUCT FOUND NEARBY</small><b>Nike Air Max SC</b><span>Stride &amp; Style · 0.8 km <i>↗</i></span></div></div>
+      <div class="wrap customer-discover-layout">
+        <div class="customer-discover-copy reveal"><div class="eyebrow"><span class="eyebrow-dot"></span> YOUR LOCAL SEARCH STARTS HERE</div><h2>Find what you need.<br><span class="muted">Know where to go.</span></h2><p>Skip the guesswork. Explore local shops, see useful product details and choose a store that works for you.</p><div class="customer-search-demo"><span class="search-lens">⌕</span><span>Nike shoes</span><span class="search-filter">Nearby&nbsp;⌄</span></div><div class="customer-quick-points"><span><i>⌖</i> Nearby options</span><span><i>✓</i> Product details</span><span><i>↗</i> Your choice</span></div></div>
+        <div class="nearby-list reveal"><div class="nearby-list-head"><span><small>LOCAL RESULTS</small><b>Available around you</b></span><span class="nearby-count"><i></i> 2 nearby</span></div><article class="nearby-store-card"><div class="nearby-product product-sneaker">↗</div><div class="nearby-store-info"><small><i></i> OPEN NOW&nbsp; · &nbsp;0.8 KM</small><h3>Nike Air Max SC</h3><p>Stride &amp; Style <span>·</span> Koregaon Park</p><div><b>₹7,495</b><a href="#how-it-works">View store details ↗</a></div></div></article><article class="nearby-store-card"><div class="nearby-product product-sport">↗</div><div class="nearby-store-info"><small><i></i> OPEN NOW&nbsp; · &nbsp;1.4 KM</small><h3>Nike Revolution 7</h3><p>City Sports <span>·</span> Kalyani Nagar</p><div><b>₹3,695</b><a href="#how-it-works">View store details ↗</a></div></div></article><div class="results-disclaimer">Example local listings shown for demonstration.</div></div>
+      </div>
+    </section>
+
+    <section class="customer-flow section-pad scene" id="how-it-works" data-scene="customer-discovery-flow">
+      <div class="wrap"><div class="customer-flow-head reveal"><div><div class="eyebrow"><span class="eyebrow-dot"></span> A BETTER WAY TO FIND IT</div><h2>From a quick search<br><span class="muted">to your local store.</span></h2></div><p>Browse what’s nearby, compare the details and choose where you want to go.</p></div><div class="customer-flow-grid"><article class="reveal"><span class="flow-number">01</span><div class="flow-symbol">⌕</div><small>START WITH WHAT YOU NEED</small><h3>Search a product</h3><p>Look for a product in everyday language.</p></article><article class="reveal"><span class="flow-number">02</span><div class="flow-symbol">⌖</div><small>SEE WHAT'S AROUND</small><h3>Discover nearby stores</h3><p>Find local shops with relevant listings.</p></article><article class="reveal"><span class="flow-number">03</span><div class="flow-symbol">▤</div><small>GET THE USEFUL DETAILS</small><h3>Check product information</h3><p>Review availability, price and store details.</p></article><article class="reveal"><span class="flow-number">04</span><div class="flow-symbol">↗</div><small>MAKE IT YOURS</small><h3>Choose a store</h3><p>Decide which local option fits your needs.</p></article></div></div>
+    </section>
+
+    <section class="customer-end section-pad scene" data-scene="neighbourhood-connected">
+      <div class="customer-end-art scene-media"><div class="end-horizon"></div><div class="end-orbit orbit-a"></div><div class="end-orbit orbit-b"></div><div class="end-glow"></div><div class="end-star">✦</div></div><div class="wrap customer-end-content reveal"><div class="eyebrow"><span class="eyebrow-dot"></span> LOCAL FINDS, MADE EASIER</div><h2>Your next great find<br>could be <span>just around.</span></h2><p>ShopGenie helps you see what’s close and brings more of your neighbourhood into view.</p><div class="hero-actions"><a class="button button-primary" href="#home">Back to the beginning <span>↑</span></a><a class="button button-quiet" href="index.html">Explore the platform <span>↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><div class="footer-main"><div class="footer-brand-col"><a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>shop<span class="brand-light">genie</span></span></a><p>Smarter Retail.<br>Better Discovery.</p><span class="footer-note"><i></i> MADE FOR THE NEIGHBOURHOOD</span></div><div class="footer-links"><div><small>PLATFORM</small><a href="index.html#platform">Overview</a><a href="customer.html">For customers</a><a href="owner.html">For store owners</a><a href="index.html#discovery">Discovery</a></div><div><small>COMPANY</small><a href="index.html#vision">About</a><a href="index.html#vision">Vision</a><a href="index.html#intelligence">Roadmap</a><a href="mailto:hello@shopgenie.in">Contact</a></div><div><small>EXPERIENCE</small><a href="owner.html">Owner app</a><a href="customer.html">Customer experience</a><a href="index.html#get-started">Get started ↗</a></div><div><small>FOLLOW ALONG</small><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a></div></div></div><div class="footer-bottom"><span>© 2026 ShopGenie. All rights reserved.</span><span>SMALL SHOPS. BIG POSSIBILITIES.</span><a href="#top">Back to top ↑</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
